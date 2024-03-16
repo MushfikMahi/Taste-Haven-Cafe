@@ -1,0 +1,86 @@
+[
+    {
+        "recipe_image": "https://i.ibb.co/jvnxgZt/stir-fry-chicken-sweet-peppers-green-beans.jpg",
+        "recipe_id": 1,
+        "recipe_name": "Chicken Stir-Fry",
+        "short_description": "A delicious and healthy chicken stir-fry dish.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "200 g basil leaves",
+            "400 g mushroom"
+        ],
+        "preparing_time": "30 min",
+        "calories": "320 calories"
+    },
+    {
+        "recipe_image": "https://i.ibb.co/SPR2ZtK/delicious-pakistani-dish-high-angle.jpg",
+        "recipe_id": 2,
+        "recipe_name": "Vegetable Curry",
+        "short_description": "A flavorful vegetarian curry with assorted vegetables.",
+        "ingredients": [
+            "300 g mixed vegetables",
+            "200 ml coconut milk",
+            "100 g curry paste",
+            "250 g tofu"
+        ],
+        "preparing_time": "45 min",
+        "calories": "250 calories"
+    },
+    {
+        "recipe_image": "https://i.ibb.co/BGY6CC0/spaghetti-with-mixed-ingredients-white-plate.jpg",
+        "recipe_id": 3,
+        "recipe_name": "Pasta Carbonara",
+        "short_description": "Classic Italian pasta dish with creamy sauce and bacon.",
+        "ingredients": [
+            "400 g spaghetti",
+            "200 g bacon",
+            "4 eggs",
+            "100 g grated Parmesan cheese"
+        ],
+        "preparing_time": "25 min",
+        "calories": "380 calories"
+    },
+    {
+        "recipe_image": "image_url_4.jpg",
+        "recipe_id": 4,
+        "recipe_name": "Grilled Salmon",
+        "short_description": "Healthy grilled salmon fillets seasoned with herbs and lemon.",
+        "ingredients": [
+            "4 salmon fillets",
+            "2 tbsp olive oil",
+            "1 lemon",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "20 min",
+        "calories": "290 calories"
+    },
+    {
+        "recipe_image": "image_url_5.jpg",
+        "recipe_id": 5,
+        "recipe_name": "Mushroom Risotto",
+        "short_description": "Creamy and flavorful risotto with mushrooms and Parmesan cheese.",
+        "ingredients": [
+            "300 g Arborio rice",
+            "200 g mushrooms",
+            "1 onion",
+            "1 liter vegetable broth"
+        ],
+        "preparing_time": "40 min",
+        "calories": "350 calories"
+    },
+    {
+        "recipe_image": "image_url_6.jpg",
+        "recipe_id": 6,
+        "recipe_name": "Chocolate Cake",
+        "short_description": "Decadent chocolate cake perfect for any occasion.",
+        "ingredients": [
+            "200 g flour",
+            "150 g sugar",
+            "100 g cocoa powder",
+            "150 ml milk"
+        ],
+        "preparing_time": "60 min",
+        "calories": "400 calories"
+    }
+]

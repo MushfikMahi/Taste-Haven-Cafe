@@ -10,8 +10,8 @@
             "200 g basil leaves",
             "400 g mushroom"
         ],
-        "preparing_time": "30 min",
-        "calories": "320 calories"
+        "preparing_time": 30,
+        "calories": 320
     },
     {
         "recipe_image": "https://i.ibb.co/SPR2ZtK/delicious-pakistani-dish-high-angle.jpg",
@@ -24,8 +24,8 @@
             "100 g curry paste",
             "250 g tofu"
         ],
-        "preparing_time": "45 min",
-        "calories": "250 calories"
+        "preparing_time": 45,
+        "calories": 250
     },
     {
         "recipe_image": "https://i.ibb.co/BGY6CC0/spaghetti-with-mixed-ingredients-white-plate.jpg",
@@ -38,8 +38,8 @@
             "4 eggs",
             "100 g grated Parmesan cheese"
         ],
-        "preparing_time": "25 min",
-        "calories": "380 calories"
+        "preparing_time": 25,
+        "calories": 380
     },
     {
         "recipe_image": "image_url_4.jpg",
@@ -52,8 +52,8 @@
             "1 lemon",
             "Salt and pepper to taste"
         ],
-        "preparing_time": "20 min",
-        "calories": "290 calories"
+        "preparing_time": 20,
+        "calories": 290
     },
     {
         "recipe_image": "image_url_5.jpg",
@@ -66,8 +66,8 @@
             "1 onion",
             "1 liter vegetable broth"
         ],
-        "preparing_time": "40 min",
-        "calories": "350 calories"
+        "preparing_time": 40,
+        "calories": 350
     },
     {
         "recipe_image": "image_url_6.jpg",
@@ -80,7 +80,7 @@
             "100 g cocoa powder",
             "150 ml milk"
         ],
-        "preparing_time": "60 min",
-        "calories": "400 calories"
+        "preparing_time": 60,
+        "calories": 400
     }
 ]

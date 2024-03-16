@@ -3,11 +3,16 @@ import PropTypes from 'prop-types';
 import CurrentCoockingItem from "./currentCoockingItem";
 
 const Cart = ({coockings, handleCurrentCoocking, currentCoocking}) => {
+    const time = currentCoocking.reduce((acc, curr) => acc+curr.preparing_time, 0)
+    const calories = currentCoocking.reduce((acc, curr) => acc+curr.calories, 0)
+    console.log(time)
+
+
     return (
         <div className="border rounded-2xl p-5 space-y-5">
             <div>
                 <div className="overflow-x-auto">
-                <h1 className="text-3xl font-bold text-center">Want to cook: 01</h1>
+                <h1 className="text-3xl font-bold text-center">Want to cook: {coockings.length}</h1>
                 <hr className="w-2/3 mx-auto" />
                     <table className="table">
                         <thead>
@@ -28,7 +33,7 @@ const Cart = ({coockings, handleCurrentCoocking, currentCoocking}) => {
             </div>
             <div>
                 <div className="overflow-x-auto">
-                <h1 className="text-3xl font-bold text-center">Currently cooking: 02</h1>
+                <h1 className="text-3xl font-bold text-center">Currently cooking: {currentCoocking.length}</h1>
                 <hr className="w-2/3 mx-auto" />
                     <table className="table">
                         <thead>
@@ -47,9 +52,9 @@ const Cart = ({coockings, handleCurrentCoocking, currentCoocking}) => {
                             
                         </tbody>
                     </table>
-                    <div className="flex justify-between px-10">
-                        <h2 className="text-xl font-bold">Total time = 45 minutes</h2>
-                        <h2 className="text-xl font-bold">Total Calories = 1050 calories</h2>
+                    <div className="md:flex justify-between px-10">
+                        <h2 className="text-xl font-bold">Preparing Time = {time} minutes</h2>
+                        <h2 className="text-xl font-bold">Total Calories = {calories} calories</h2>
                     </div>
                 </div>
             </div>

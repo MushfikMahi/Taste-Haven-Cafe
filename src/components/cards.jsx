@@ -14,7 +14,7 @@ const Cards = ({handleCoocking}) => {
         .then(data => setRecipies(data))
     },[])
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
             {
                 recipies.map(recipie => <Card handleCoocking={handleCoocking} key={recipie.recipe_id} recipie={recipie} ></Card>)
             }

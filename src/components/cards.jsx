@@ -9,12 +9,12 @@ const Cards = ({handleCoocking}) => {
     const [recipies, setRecipies] = useState([])
 
     useEffect(()=>{
-        fetch('../../public/data.json')
+        fetch('data.json')
         .then(res => res.json())
         .then(data => setRecipies(data))
     },[])
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:col-span-2 lg:col-span-4 gap-5">
             {
                 recipies.map(recipie => <Card handleCoocking={handleCoocking} key={recipie.recipe_id} recipie={recipie} ></Card>)
             }

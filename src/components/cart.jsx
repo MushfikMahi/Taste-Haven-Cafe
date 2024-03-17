@@ -9,7 +9,7 @@ const Cart = ({coockings, handleCurrentCoocking, currentCoocking}) => {
 
 
     return (
-        <div className="border rounded-2xl p-5 space-y-5">
+        <div className="md:col-span-2 border rounded-2xl p-5 space-y-5">
             <div>
                 <div className="overflow-x-auto">
                 <h1 className="text-3xl font-bold text-center">Want to cook: {coockings.length}</h1>

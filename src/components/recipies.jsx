@@ -40,7 +40,7 @@ const Recipies = () => {
                 <p>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
                 <ToastContainer></ToastContainer>
             </div>
-            <div className="md:flex gap-5">
+            <div className="grid lg:grid-cols-6 md:grid-cols-4 gap-5">
                 <Cards handleCoocking={handleCoocking}></Cards>
                 <Cart currentCoocking={currentCoocking} handleCurrentCoocking={handleCurrentCoocking} coockings={coockings}></Cart>
             </div>

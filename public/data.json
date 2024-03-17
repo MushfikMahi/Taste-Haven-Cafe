@@ -42,7 +42,7 @@
         "calories": 380
     },
     {
-        "recipe_image": "image_url_4.jpg",
+        "recipe_image": "https://i.ibb.co/x82znzf/grilled-salmon-with-asparagus-white-plate-isolated-black-background.jpg",
         "recipe_id": 4,
         "recipe_name": "Grilled Salmon",
         "short_description": "Healthy grilled salmon fillets seasoned with herbs and lemon.",
@@ -56,7 +56,7 @@
         "calories": 290
     },
     {
-        "recipe_image": "image_url_5.jpg",
+        "recipe_image": "https://i.ibb.co/55NzBBJ/pasta-with-meatballs-mushrooms-creamy-sauce.jpg",
         "recipe_id": 5,
         "recipe_name": "Mushroom Risotto",
         "short_description": "Creamy and flavorful risotto with mushrooms and Parmesan cheese.",
@@ -70,7 +70,7 @@
         "calories": 350
     },
     {
-        "recipe_image": "image_url_6.jpg",
+        "recipe_image": "https://i.ibb.co/yQTqrN2/chocolate-cake-tea-armudy-side-view.jpg",
         "recipe_id": 6,
         "recipe_name": "Chocolate Cake",
         "short_description": "Decadent chocolate cake perfect for any occasion.",

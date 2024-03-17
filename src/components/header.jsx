@@ -16,7 +16,7 @@ const Header = () => {
                             <li><a>Search</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Recipe Calories</a>
+                    <a className="btn btn-ghost text-xl">Taste Haven Café</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -45,11 +45,11 @@ const Header = () => {
                 <div className="hero" style={{backgroundImage: "url(https://i.ibb.co/rQzqTD3/Rectangle-1.png)"}}>
                     <div className="hero-overlay bg-opacity-40"></div>
                     <div className="hero-content text-center text-neutral-content">
-                        <div className="md:w-2/3 md:my-28 my-10">
-                            <h1 className="mb-5 text-3xl md:text-5xl font-bold md:pb-5">Discover an exceptional cooking class tailored for you!</h1>
-                            <p className="mb-5 md:pb-5">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
+                        <div className="lg:w-2/3 md:my-28 my-10">
+                            <h1 className="mb-5 text-3xl md:text-5xl font-bold lg:pb-5">Discover an exceptional cooking class tailored for you!</h1>
+                            <p className="mb-5 md:pb-5">Unleash your culinary potential with personalized cooking classes designed to match your skills and interests. Elevate your cooking experience today!</p>
                             <div className="space-x-5">
-                            <button className="btn bg-green-500 text-black rounded-full">Explore Now</button>
+                            <button className="btn border-none bg-green-500 text-black rounded-full">Explore Now</button>
                             <button className="btn rounded-full">Our Feedback</button>
                             </div>
                         </div>

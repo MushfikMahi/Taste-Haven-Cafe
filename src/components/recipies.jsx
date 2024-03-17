@@ -37,7 +37,7 @@ const Recipies = () => {
         <div className="md:my-24 my-10 space-y-10">
             <div className="text-center md:w-2/3 mx-auto space-y-5 px-5">
                 <h1 className="text-6xl font-bold">Our Recipes</h1>
-                <p>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+                <p>Explore our curated collection of delicious recipes, carefully crafted to inspire your culinary adventures and delight your taste buds.</p>
                 <ToastContainer></ToastContainer>
             </div>
             <div className="grid lg:grid-cols-6 md:grid-cols-4 gap-5">

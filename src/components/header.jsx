@@ -42,8 +42,8 @@ const Header = () => {
             </div>
             {/* banner */}
             <div>
-                <div className="hero" style={{backgroundImage: "url(https://i.ibb.co/rQzqTD3/Rectangle-1.png)"}}>
-                    <div className="hero-overlay bg-opacity-40"></div>
+                <div className="hero rounded-2xl" style={{backgroundImage: "url(https://i.ibb.co/rQzqTD3/Rectangle-1.png)"}}>
+                    <div className="hero-overlay bg-opacity-40 rounded-2xl"></div>
                     <div className="hero-content text-center text-neutral-content">
                         <div className="lg:w-2/3 md:my-28 my-10">
                             <h1 className="mb-5 text-3xl md:text-5xl font-bold lg:pb-5">Discover an exceptional cooking class tailored for you!</h1>

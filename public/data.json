@@ -82,5 +82,43 @@
         ],
         "preparing_time": 60,
         "calories": 400
-    }
+    },
+    {
+        "recipe_id": 7,
+        "recipe_name": "Spicy Chicken Curry",
+        "short_description": "A delicious and aromatic chicken curry with bold spices.",
+        "ingredients": [
+          "500g chicken",
+          "200ml coconut milk",
+          "3 tablespoons curry powder",
+          "2 onions, chopped",
+          "4 cloves garlic, minced",
+          "1 inch ginger, grated",
+          "2 tomatoes, diced",
+          "Handful of cilantro leaves",
+          "Salt to taste"
+        ],
+        "preparing_time": 45,
+        "calories": 400,
+        "recipe_image": "https://i.ibb.co/tZ9mn3n/top-view-delicious-vegetable-soup-with-seasonings-grey-space.jpg"
+      },
+      {
+        "recipe_id": 8,
+        "recipe_name": "Grilled Lemon Herb Chicken",
+        "short_description": "Juicy grilled chicken marinated in lemon and herbs, perfect for summer BBQs.",
+        "ingredients": [
+          "4 boneless, skinless chicken breasts",
+          "Juice of 2 lemons",
+          "2 tablespoons olive oil",
+          "2 cloves garlic, minced",
+          "1 teaspoon dried thyme",
+          "1 teaspoon dried rosemary",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": 30,
+        "calories": 300,
+        "recipe_image": "https://i.ibb.co/pxHB7vQ/top-view-christmas-dinner.jpg"
+      }
+      
+      
 ]

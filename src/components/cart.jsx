@@ -13,7 +13,7 @@ const Cart = ({coockings, handleCurrentCoocking, currentCoocking}) => {
             <div>
                 <div className="overflow-x-auto">
                 <h1 className="text-3xl font-bold text-center">Want to cook: {coockings.length}</h1>
-                <hr className="w-2/3 mx-auto" />
+                <hr className="w-2/3 mx-auto mt-3" />
                     <table className="table">
                         <thead>
                             <tr>
@@ -34,7 +34,7 @@ const Cart = ({coockings, handleCurrentCoocking, currentCoocking}) => {
             <div>
                 <div className="overflow-x-auto">
                 <h1 className="text-3xl font-bold text-center">Currently cooking: {currentCoocking.length}</h1>
-                <hr className="w-2/3 mx-auto" />
+                <hr className="w-2/3 mx-auto my-3" />
                     <table className="table">
                         <thead>
                             <tr>

@@ -9,7 +9,7 @@ const Card = ({recipie, handleCoocking}) => {
     return (
         <div>
             <div className="card card-compact bg-base-100 border">
-                <figure><img  src={recipe_image} alt={recipe_name} /></figure>
+                <figure className='px-5 pt-5'><img className='rounded-2xl' src={recipe_image} alt={recipe_name} /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{recipe_name}</h2>
                     <p>{short_description}</p>

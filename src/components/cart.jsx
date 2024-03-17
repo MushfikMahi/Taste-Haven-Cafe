@@ -52,7 +52,7 @@ const Cart = ({coockings, handleCurrentCoocking, currentCoocking}) => {
                             
                         </tbody>
                     </table>
-                    <div className="md:flex justify-between px-10">
+                    <div className="lg:px-10">
                         <h2 className="text-xl font-bold">Preparing Time = {time} minutes</h2>
                         <h2 className="text-xl font-bold">Total Calories = {calories} calories</h2>
                     </div>
